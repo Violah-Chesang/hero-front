@@ -1,4 +1,6 @@
 import Search from '../search/search';
+import Description from '../description/description';
+import MainComponents from '../mainComponents/mainComponents';
 function Body(){
     return(
         <div className="container">
@@ -7,7 +9,10 @@ function Body(){
                     <Search />
                 </div>
                 <div className='col-10'>
-                    <Search />
+                    <Description />
+                    <div>
+                        <MainComponents />
+                    </div>
                 </div>
             </div>
         </div>
