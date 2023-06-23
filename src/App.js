@@ -4,8 +4,9 @@ import Header from './components/header/header';
 import Body from './components/body/body';
 function App() {
   return (
-    <div className='.bg-dark text-light'>
+    <div className='bg-dark text-light'>
       <Header />
+      <Body />
     </div>
   );
   };
